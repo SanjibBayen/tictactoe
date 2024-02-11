@@ -51,12 +51,17 @@ body{
     border: none;
 }
 #msg{
-    font-size: 10vmin;
+    font-size: 5vmin;
     color: blue;
 }
 .msg-container{
-    height: 35vmin;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:4rem;
 }
 .hide{
-    display: none;
+   display: none;
 }
